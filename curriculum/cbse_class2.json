@@ -1,0 +1,303 @@
+{
+  "class": 2,
+  "subjects": [
+    {
+      "code": "math",
+      "name": "Mathematics",
+      "chapters": [
+        {
+          "name": "What is Long, What is Round",
+          "description": "Understanding shapes and their properties",
+          "topics": [
+            { "name": "Flat and Curved Shapes", "description": "Identifying flat and round shapes" },
+            { "name": "Rolling and Sliding", "description": "Objects that roll and slide" }
+          ]
+        },
+        {
+          "name": "Counting in Groups",
+          "description": "Skip counting and grouping",
+          "topics": [
+            { "name": "Counting by 2s and 5s", "description": "Skip counting patterns" },
+            { "name": "Grouping Objects", "description": "Making groups of tens" }
+          ]
+        },
+        {
+          "name": "How Much Can You Carry",
+          "description": "Understanding weight and comparison",
+          "topics": [
+            { "name": "Heavy and Light", "description": "Comparing weights" },
+            { "name": "Weighing", "description": "Using simple balance" }
+          ]
+        },
+        {
+          "name": "Counting in Tens",
+          "description": "Understanding tens and place value",
+          "topics": [
+            { "name": "Groups of Ten", "description": "Making tens" },
+            { "name": "Place Value", "description": "Tens and ones" }
+          ]
+        },
+        {
+          "name": "Patterns",
+          "description": "Identifying and creating patterns",
+          "topics": [
+            { "name": "Shape Patterns", "description": "Repeating and growing patterns" },
+            { "name": "Number Patterns", "description": "Sequences and rules" }
+          ]
+        },
+        {
+          "name": "Footprints",
+          "description": "Measurement using non-standard units",
+          "topics": [
+            { "name": "Measuring Length", "description": "Using footsteps and hand spans" },
+            { "name": "Comparing Lengths", "description": "Longer and shorter" }
+          ]
+        },
+        {
+          "name": "Jugs and Mugs",
+          "description": "Understanding capacity",
+          "topics": [
+            { "name": "Full and Empty", "description": "Understanding capacity concepts" },
+            { "name": "Comparing Capacity", "description": "Holds more, holds less" }
+          ]
+        },
+        {
+          "name": "Tens and Ones",
+          "description": "Place value concepts",
+          "topics": [
+            { "name": "Expanded Form", "description": "Breaking numbers into tens and ones" },
+            { "name": "Number Formation", "description": "Forming two-digit numbers" }
+          ]
+        },
+        {
+          "name": "My Funday",
+          "description": "Understanding time concepts",
+          "topics": [
+            { "name": "Reading a Clock", "description": "Hours on a clock" },
+            { "name": "Calendar", "description": "Months and dates" }
+          ]
+        },
+        {
+          "name": "Add Our Points",
+          "description": "Addition with carrying",
+          "topics": [
+            { "name": "Two-digit Addition", "description": "Adding two-digit numbers" },
+            { "name": "Word Problems", "description": "Addition story problems" }
+          ]
+        },
+        {
+          "name": "Lines and Lines",
+          "description": "Introduction to lines",
+          "topics": [
+            { "name": "Straight and Curved Lines", "description": "Types of lines" },
+            { "name": "Drawing Lines", "description": "Creating lines and designs" }
+          ]
+        },
+        {
+          "name": "Give and Take",
+          "description": "Subtraction concepts",
+          "topics": [
+            { "name": "Two-digit Subtraction", "description": "Subtracting two-digit numbers" },
+            { "name": "Word Problems", "description": "Subtraction story problems" }
+          ]
+        },
+        {
+          "name": "The Longest Step",
+          "description": "Standard measurement introduction",
+          "topics": [
+            { "name": "Using a Ruler", "description": "Measuring in centimetres" },
+            { "name": "Estimating Length", "description": "Guessing and measuring" }
+          ]
+        },
+        {
+          "name": "Birds Come, Birds Go",
+          "description": "Data handling with pictures",
+          "topics": [
+            { "name": "Pictographs", "description": "Reading and making picture graphs" },
+            { "name": "Collecting Data", "description": "Gathering and organizing data" }
+          ]
+        },
+        {
+          "name": "How Many Ponytails",
+          "description": "Data collection and tables",
+          "topics": [
+            { "name": "Tally Marks", "description": "Counting using tally marks" },
+            { "name": "Data Tables", "description": "Organizing data in tables" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "english",
+      "name": "English",
+      "chapters": [
+        {
+          "name": "First Day at School",
+          "description": "Poem about the excitement of going to school",
+          "topics": [
+            { "name": "Rhyming Words", "description": "Finding rhyming pairs" },
+            { "name": "Feelings Vocabulary", "description": "Words about emotions" }
+          ]
+        },
+        {
+          "name": "Haldi's Adventure",
+          "description": "Story of a curious squirrel",
+          "topics": [
+            { "name": "Story Comprehension", "description": "Understanding the plot" },
+            { "name": "Naming Words", "description": "Introduction to nouns" }
+          ]
+        },
+        {
+          "name": "I Am Lucky",
+          "description": "Poem about being grateful",
+          "topics": [
+            { "name": "Gratitude Vocabulary", "description": "Words about thankfulness" },
+            { "name": "Reading Aloud", "description": "Expressive reading practice" }
+          ]
+        },
+        {
+          "name": "I Want",
+          "description": "Story about wishes and wants",
+          "topics": [
+            { "name": "Sentence Formation", "description": "I want... sentences" },
+            { "name": "Vocabulary", "description": "Words related to needs and wants" }
+          ]
+        },
+        {
+          "name": "Funny Bunny",
+          "description": "Humorous poem about a rabbit",
+          "topics": [
+            { "name": "Humor in Poetry", "description": "Understanding funny elements" },
+            { "name": "Animal Words", "description": "Names and sounds of animals" }
+          ]
+        },
+        {
+          "name": "Rain",
+          "description": "Poem about the rainy season",
+          "topics": [
+            { "name": "Weather Words", "description": "Vocabulary about weather" },
+            { "name": "Describing Words", "description": "Adjectives for weather" }
+          ]
+        },
+        {
+          "name": "Curlylocks and the Three Bears",
+          "description": "Classic fairy tale retold",
+          "topics": [
+            { "name": "Story Sequence", "description": "Order of events" },
+            { "name": "Size Words", "description": "Big, medium, small" }
+          ]
+        },
+        {
+          "name": "On My Blackboard I Can Draw",
+          "description": "Poem about drawing and imagination",
+          "topics": [
+            { "name": "Creative Expression", "description": "Drawing and describing" },
+            { "name": "Shape and Colour Words", "description": "Visual vocabulary" }
+          ]
+        },
+        {
+          "name": "Make It Shorter",
+          "description": "Understanding abbreviations and short forms",
+          "topics": [
+            { "name": "Short Forms", "description": "Common abbreviations" },
+            { "name": "Sentence Building", "description": "Writing complete sentences" }
+          ]
+        },
+        {
+          "name": "The Grasshopper and the Ant",
+          "description": "Classic Aesop's fable",
+          "topics": [
+            { "name": "Moral of the Story", "description": "Understanding the lesson" },
+            { "name": "Opposite Words", "description": "Introduction to antonyms" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "evs",
+      "name": "Environmental Studies",
+      "chapters": [
+        {
+          "name": "My Family and I",
+          "description": "Understanding family structures",
+          "topics": [
+            { "name": "Family Tree", "description": "Drawing and understanding family tree" },
+            { "name": "Helping at Home", "description": "Household responsibilities" }
+          ]
+        },
+        {
+          "name": "Good Habits",
+          "description": "Personal hygiene and daily routines",
+          "topics": [
+            { "name": "Cleanliness", "description": "Bathing, brushing, hand washing" },
+            { "name": "Healthy Habits", "description": "Exercise and sleep" }
+          ]
+        },
+        {
+          "name": "Food for All",
+          "description": "Sources of food and food groups",
+          "topics": [
+            { "name": "Food from Plants", "description": "Fruits, vegetables, grains" },
+            { "name": "Food from Animals", "description": "Milk, eggs, honey" }
+          ]
+        },
+        {
+          "name": "Water Everywhere",
+          "description": "Sources and uses of water",
+          "topics": [
+            { "name": "Sources of Water", "description": "Rivers, wells, rain" },
+            { "name": "Saving Water", "description": "Water conservation" }
+          ]
+        },
+        {
+          "name": "Animals and Birds",
+          "description": "Features and habitats of animals",
+          "topics": [
+            { "name": "Animal Homes", "description": "Where animals live" },
+            { "name": "Animal Features", "description": "Legs, wings, tails" }
+          ]
+        },
+        {
+          "name": "Plants and Trees",
+          "description": "Parts and uses of plants",
+          "topics": [
+            { "name": "Parts of a Plant", "description": "Root, stem, leaf, flower, fruit" },
+            { "name": "Importance of Trees", "description": "Why trees matter" }
+          ]
+        },
+        {
+          "name": "Our Neighbourhood",
+          "description": "People and places in community",
+          "topics": [
+            { "name": "Places Around Us", "description": "Market, hospital, post office" },
+            { "name": "Community Workers", "description": "People who help us" }
+          ]
+        },
+        {
+          "name": "Air and Weather",
+          "description": "Understanding air and weather changes",
+          "topics": [
+            { "name": "Properties of Air", "description": "Air around us" },
+            { "name": "Seasons in India", "description": "Summer, winter, monsoon" }
+          ]
+        },
+        {
+          "name": "Safety Rules",
+          "description": "Road safety and home safety",
+          "topics": [
+            { "name": "Road Safety", "description": "Traffic rules and signals" },
+            { "name": "Home Safety", "description": "Staying safe at home" }
+          ]
+        },
+        {
+          "name": "Our Earth",
+          "description": "Introduction to the planet",
+          "topics": [
+            { "name": "Land and Water", "description": "Continents and oceans" },
+            { "name": "Caring for Earth", "description": "Reduce, reuse, recycle" }
+          ]
+        }
+      ]
+    }
+  ]
+}

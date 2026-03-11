@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Adhyayan.Api/Adhyayan.Api.csproj" />
+    <Project Path="src/Adhyayan.Core/Adhyayan.Core.csproj" />
+    <Project Path="src/Adhyayan.Infrastructure/Adhyayan.Infrastructure.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,244 @@
+{
+  "mappings": [
+    {
+      "conceptId": "math_shapes_space",
+      "conceptName": "Shapes and Space",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Shapes and Space" },
+        { "boardCode": "maharashtra", "chapterName": "Shapes Around Us" },
+        { "boardCode": "karnataka", "chapterName": "Shapes and Figures" },
+        { "boardCode": "tamilnadu", "chapterName": "Geometry – Shapes" },
+        { "boardCode": "uttarpradesh", "chapterName": "Shapes and Patterns" },
+        { "boardCode": "madhyapradesh", "chapterName": "Shapes and Space" }
+      ]
+    },
+    {
+      "conceptId": "math_addition",
+      "conceptName": "Addition",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Addition" },
+        { "boardCode": "maharashtra", "chapterName": "Addition of Numbers" },
+        { "boardCode": "karnataka", "chapterName": "Adding Numbers" },
+        { "boardCode": "tamilnadu", "chapterName": "Addition" },
+        { "boardCode": "uttarpradesh", "chapterName": "Jod (Addition)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Jod (Addition)" }
+      ]
+    },
+    {
+      "conceptId": "math_subtraction",
+      "conceptName": "Subtraction",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Subtraction" },
+        { "boardCode": "maharashtra", "chapterName": "Subtraction of Numbers" },
+        { "boardCode": "karnataka", "chapterName": "Taking Away" },
+        { "boardCode": "tamilnadu", "chapterName": "Subtraction" },
+        { "boardCode": "uttarpradesh", "chapterName": "Ghatav (Subtraction)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Ghatav (Subtraction)" }
+      ]
+    },
+    {
+      "conceptId": "math_fractions",
+      "conceptName": "Fractions",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Halves and Quarters" },
+        { "boardCode": "maharashtra", "chapterName": "Parts of a Whole" },
+        { "boardCode": "karnataka", "chapterName": "Fractions" },
+        { "boardCode": "tamilnadu", "chapterName": "Fractions" },
+        { "boardCode": "uttarpradesh", "chapterName": "Bhinn (Fractions)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Bhinn (Fractions)" }
+      ]
+    },
+    {
+      "conceptId": "math_multiplication",
+      "conceptName": "Multiplication",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "How Many Times" },
+        { "boardCode": "maharashtra", "chapterName": "Multiplication" },
+        { "boardCode": "karnataka", "chapterName": "Multiplication" },
+        { "boardCode": "tamilnadu", "chapterName": "Multiplication" },
+        { "boardCode": "uttarpradesh", "chapterName": "Gunanphal (Multiplication)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Gunanphal (Multiplication)" }
+      ]
+    },
+    {
+      "conceptId": "math_division",
+      "conceptName": "Division",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Can We Share" },
+        { "boardCode": "maharashtra", "chapterName": "Division" },
+        { "boardCode": "karnataka", "chapterName": "Division" },
+        { "boardCode": "tamilnadu", "chapterName": "Division" },
+        { "boardCode": "uttarpradesh", "chapterName": "Bhagphal (Division)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Bhagphal (Division)" }
+      ]
+    },
+    {
+      "conceptId": "math_measurement",
+      "conceptName": "Measurement",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Long and Short" },
+        { "boardCode": "maharashtra", "chapterName": "Measurement of Length" },
+        { "boardCode": "karnataka", "chapterName": "Measuring Length" },
+        { "boardCode": "tamilnadu", "chapterName": "Measurements" },
+        { "boardCode": "uttarpradesh", "chapterName": "Mapan (Measurement)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Mapan (Measurement)" }
+      ]
+    },
+    {
+      "conceptId": "math_time",
+      "conceptName": "Time",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Time Goes On" },
+        { "boardCode": "maharashtra", "chapterName": "Understanding Time" },
+        { "boardCode": "karnataka", "chapterName": "Time" },
+        { "boardCode": "tamilnadu", "chapterName": "Time" },
+        { "boardCode": "uttarpradesh", "chapterName": "Samay (Time)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Samay (Time)" }
+      ]
+    },
+    {
+      "conceptId": "math_money",
+      "conceptName": "Money",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Rupees and Paise" },
+        { "boardCode": "maharashtra", "chapterName": "Money" },
+        { "boardCode": "karnataka", "chapterName": "Money" },
+        { "boardCode": "tamilnadu", "chapterName": "Money" },
+        { "boardCode": "uttarpradesh", "chapterName": "Rupaye Paise (Money)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Rupaye Paise (Money)" }
+      ]
+    },
+    {
+      "conceptId": "math_patterns",
+      "conceptName": "Patterns",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Play with Patterns" },
+        { "boardCode": "maharashtra", "chapterName": "Patterns and Designs" },
+        { "boardCode": "karnataka", "chapterName": "Pattern Making" },
+        { "boardCode": "tamilnadu", "chapterName": "Patterns" },
+        { "boardCode": "uttarpradesh", "chapterName": "Aakritiyaan (Patterns)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Aakritiyaan (Patterns)" }
+      ]
+    },
+    {
+      "conceptId": "math_data_handling",
+      "conceptName": "Data Handling",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Smart Charts" },
+        { "boardCode": "maharashtra", "chapterName": "Data and Graphs" },
+        { "boardCode": "karnataka", "chapterName": "Data Handling" },
+        { "boardCode": "tamilnadu", "chapterName": "Data Handling" },
+        { "boardCode": "uttarpradesh", "chapterName": "Sankhyiki (Data)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Sankhyiki (Data)" }
+      ]
+    },
+    {
+      "conceptId": "math_decimals",
+      "conceptName": "Decimals",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Tenths and Hundredths" },
+        { "boardCode": "maharashtra", "chapterName": "Decimal Numbers" },
+        { "boardCode": "karnataka", "chapterName": "Decimals" },
+        { "boardCode": "tamilnadu", "chapterName": "Decimal Numbers" },
+        { "boardCode": "uttarpradesh", "chapterName": "Dashmlav (Decimals)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Dashmlav (Decimals)" }
+      ]
+    },
+    {
+      "conceptId": "evs_family",
+      "conceptName": "Family",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "My Family" },
+        { "boardCode": "maharashtra", "chapterName": "Our Family" },
+        { "boardCode": "karnataka", "chapterName": "My Family" },
+        { "boardCode": "tamilnadu", "chapterName": "Our Family" },
+        { "boardCode": "uttarpradesh", "chapterName": "Mera Parivar (My Family)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Mera Parivar (My Family)" }
+      ]
+    },
+    {
+      "conceptId": "evs_animals",
+      "conceptName": "Animals Around Us",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Animals Around Us" },
+        { "boardCode": "maharashtra", "chapterName": "Animals and Their Homes" },
+        { "boardCode": "karnataka", "chapterName": "Animals Around Us" },
+        { "boardCode": "tamilnadu", "chapterName": "Animals" },
+        { "boardCode": "uttarpradesh", "chapterName": "Janwar (Animals)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Janwar (Animals)" }
+      ]
+    },
+    {
+      "conceptId": "evs_plants",
+      "conceptName": "Plants",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Plants Around Us" },
+        { "boardCode": "maharashtra", "chapterName": "The World of Plants" },
+        { "boardCode": "karnataka", "chapterName": "Plants Around Us" },
+        { "boardCode": "tamilnadu", "chapterName": "Plants" },
+        { "boardCode": "uttarpradesh", "chapterName": "Paudhe (Plants)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Paudhe (Plants)" }
+      ]
+    },
+    {
+      "conceptId": "evs_water",
+      "conceptName": "Water",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Water O Water" },
+        { "boardCode": "maharashtra", "chapterName": "Water – A Precious Resource" },
+        { "boardCode": "karnataka", "chapterName": "Water in Our Life" },
+        { "boardCode": "tamilnadu", "chapterName": "Water" },
+        { "boardCode": "uttarpradesh", "chapterName": "Paani (Water)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Paani (Water)" }
+      ]
+    },
+    {
+      "conceptId": "evs_food",
+      "conceptName": "Food",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Foods We Eat" },
+        { "boardCode": "maharashtra", "chapterName": "Our Food" },
+        { "boardCode": "karnataka", "chapterName": "Food and Health" },
+        { "boardCode": "tamilnadu", "chapterName": "Food" },
+        { "boardCode": "uttarpradesh", "chapterName": "Bhojan (Food)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Bhojan (Food)" }
+      ]
+    },
+    {
+      "conceptId": "evs_transport",
+      "conceptName": "Transport",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "From Here to There" },
+        { "boardCode": "maharashtra", "chapterName": "Means of Transport" },
+        { "boardCode": "karnataka", "chapterName": "Transport" },
+        { "boardCode": "tamilnadu", "chapterName": "Transport" },
+        { "boardCode": "uttarpradesh", "chapterName": "Parivahan (Transport)" },
+        { "boardCode": "madhyapradesh", "chapterName": "Parivahan (Transport)" }
+      ]
+    },
+    {
+      "conceptId": "english_poetry",
+      "conceptName": "Poetry Appreciation",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "A Happy Child" },
+        { "boardCode": "maharashtra", "chapterName": "Poems and Rhymes" },
+        { "boardCode": "karnataka", "chapterName": "Rhymes and Poems" },
+        { "boardCode": "tamilnadu", "chapterName": "English Poetry" },
+        { "boardCode": "uttarpradesh", "chapterName": "English Poems" },
+        { "boardCode": "madhyapradesh", "chapterName": "English Poems" }
+      ]
+    },
+    {
+      "conceptId": "english_comprehension",
+      "conceptName": "Reading Comprehension",
+      "boards": [
+        { "boardCode": "cbse", "chapterName": "Three Little Kittens" },
+        { "boardCode": "maharashtra", "chapterName": "Story Reading" },
+        { "boardCode": "karnataka", "chapterName": "Story Time" },
+        { "boardCode": "tamilnadu", "chapterName": "Reading Comprehension" },
+        { "boardCode": "uttarpradesh", "chapterName": "English Stories" },
+        { "boardCode": "madhyapradesh", "chapterName": "English Stories" }
+      ]
+    }
+  ]
+}

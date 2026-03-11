@@ -1,0 +1,286 @@
+{
+  "class": 1,
+  "subjects": [
+    {
+      "code": "math",
+      "name": "Mathematics",
+      "chapters": [
+        {
+          "name": "Shapes and Space",
+          "description": "Identifying basic shapes in everyday objects",
+          "topics": [
+            { "name": "Identifying Shapes", "description": "Circles, squares, triangles, rectangles" },
+            { "name": "Shapes Around Us", "description": "Finding shapes in daily life" }
+          ]
+        },
+        {
+          "name": "Numbers from One to Nine",
+          "description": "Learning to count and write numbers 1–9",
+          "topics": [
+            { "name": "Counting Objects", "description": "Counting up to 9 objects" },
+            { "name": "Writing Numbers", "description": "Writing numbers 1 through 9" }
+          ]
+        },
+        {
+          "name": "Addition",
+          "description": "Adding small numbers",
+          "topics": [
+            { "name": "Adding with Pictures", "description": "Using pictures to add" },
+            { "name": "Adding Numbers up to 9", "description": "Simple addition problems" }
+          ]
+        },
+        {
+          "name": "Subtraction",
+          "description": "Taking away from a group",
+          "topics": [
+            { "name": "Taking Away", "description": "Understanding subtraction" },
+            { "name": "Subtraction Problems", "description": "Simple subtraction exercises" }
+          ]
+        },
+        {
+          "name": "Numbers from Ten to Twenty",
+          "description": "Counting and understanding teen numbers",
+          "topics": [
+            { "name": "Counting to 20", "description": "Counting objects up to 20" },
+            { "name": "Place Value Basics", "description": "Tens and ones introduction" }
+          ]
+        },
+        {
+          "name": "Time",
+          "description": "Understanding daily routines and time concepts",
+          "topics": [
+            { "name": "Daily Routine", "description": "Morning, afternoon, evening, night" },
+            { "name": "Days of the Week", "description": "Learning the seven days" }
+          ]
+        },
+        {
+          "name": "Measurement",
+          "description": "Comparing lengths and heights",
+          "topics": [
+            { "name": "Long and Short", "description": "Comparing lengths" },
+            { "name": "Tall and Short", "description": "Comparing heights" }
+          ]
+        },
+        {
+          "name": "Numbers Twenty-One to Fifty",
+          "description": "Extending counting to 50",
+          "topics": [
+            { "name": "Counting to 50", "description": "Counting objects and numbers to 50" },
+            { "name": "Number Names", "description": "Writing number names to 50" }
+          ]
+        },
+        {
+          "name": "Data Handling",
+          "description": "Collecting and recording simple data",
+          "topics": [
+            { "name": "Collecting Data", "description": "Counting and sorting objects" },
+            { "name": "Simple Pictographs", "description": "Reading basic picture charts" }
+          ]
+        },
+        {
+          "name": "Patterns",
+          "description": "Recognizing and creating patterns",
+          "topics": [
+            { "name": "Shape Patterns", "description": "Repeating shape patterns" },
+            { "name": "Number Patterns", "description": "Simple number sequences" }
+          ]
+        },
+        {
+          "name": "Numbers",
+          "description": "Numbers up to 100",
+          "topics": [
+            { "name": "Counting to 100", "description": "Extending number range" },
+            { "name": "Comparing Numbers", "description": "Greater than, less than" }
+          ]
+        },
+        {
+          "name": "Money",
+          "description": "Introduction to Indian currency",
+          "topics": [
+            { "name": "Coins", "description": "Identifying Indian coins" },
+            { "name": "Simple Transactions", "description": "Buying and paying" }
+          ]
+        },
+        {
+          "name": "How Many",
+          "description": "Counting in different contexts",
+          "topics": [
+            { "name": "Counting Groups", "description": "Counting objects in groups" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "english",
+      "name": "English",
+      "chapters": [
+        {
+          "name": "A Happy Child",
+          "description": "Poem about joy and happiness",
+          "topics": [
+            { "name": "Rhyming Words", "description": "Finding rhyming words in the poem" },
+            { "name": "Vocabulary", "description": "New words from the poem" }
+          ]
+        },
+        {
+          "name": "Three Little Kittens",
+          "description": "Story of three kittens who lost their mittens",
+          "topics": [
+            { "name": "Story Comprehension", "description": "Understanding the story" },
+            { "name": "Action Words", "description": "Introduction to verbs" }
+          ]
+        },
+        {
+          "name": "Lalu and Peelu",
+          "description": "Story about two parrots",
+          "topics": [
+            { "name": "Reading Comprehension", "description": "Understanding the narrative" },
+            { "name": "Colour Words", "description": "Learning colours in English" }
+          ]
+        },
+        {
+          "name": "Humpty Dumpty",
+          "description": "Classic nursery rhyme",
+          "topics": [
+            { "name": "Nursery Rhyme", "description": "Memorizing and understanding the rhyme" },
+            { "name": "Vocabulary", "description": "New words from the rhyme" }
+          ]
+        },
+        {
+          "name": "A Kite",
+          "description": "Poem about flying a kite",
+          "topics": [
+            { "name": "Poetry Appreciation", "description": "Enjoying and understanding the poem" },
+            { "name": "Describing Words", "description": "Introduction to adjectives" }
+          ]
+        },
+        {
+          "name": "A Little Turtle",
+          "description": "Poem about a turtle's adventures",
+          "topics": [
+            { "name": "Animal Vocabulary", "description": "Animal-related words" },
+            { "name": "Comprehension", "description": "Understanding the poem" }
+          ]
+        },
+        {
+          "name": "Bubble Trouble",
+          "description": "Fun story about bubbles",
+          "topics": [
+            { "name": "Story Elements", "description": "Characters and events" },
+            { "name": "Phonics", "description": "Letter sounds and blends" }
+          ]
+        },
+        {
+          "name": "Nobody",
+          "description": "Humorous poem about mischief",
+          "topics": [
+            { "name": "Comprehension", "description": "Understanding humor in poetry" },
+            { "name": "Vocabulary", "description": "New words" }
+          ]
+        },
+        {
+          "name": "Haldi's Adventure",
+          "description": "Story about a curious animal",
+          "topics": [
+            { "name": "Narrative Understanding", "description": "Following the story" },
+            { "name": "Sentence Formation", "description": "Basic sentence building" }
+          ]
+        },
+        {
+          "name": "A Strange Talking Fan",
+          "description": "Imaginative story about a talking fan",
+          "topics": [
+            { "name": "Imagination", "description": "Creative thinking through reading" },
+            { "name": "Vocabulary", "description": "Household words" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "evs",
+      "name": "Environmental Studies",
+      "chapters": [
+        {
+          "name": "My Family",
+          "description": "Learning about family members and relationships",
+          "topics": [
+            { "name": "Family Members", "description": "Identifying family members" },
+            { "name": "Family Relationships", "description": "Understanding relationships" }
+          ]
+        },
+        {
+          "name": "My Body",
+          "description": "Parts of the body and their functions",
+          "topics": [
+            { "name": "Body Parts", "description": "Naming body parts" },
+            { "name": "Keeping Clean", "description": "Personal hygiene" }
+          ]
+        },
+        {
+          "name": "Food We Eat",
+          "description": "Understanding different types of food",
+          "topics": [
+            { "name": "Healthy Food", "description": "Fruits, vegetables, and grains" },
+            { "name": "Meals and Habits", "description": "Eating habits" }
+          ]
+        },
+        {
+          "name": "Animals Around Us",
+          "description": "Learning about animals in our surroundings",
+          "topics": [
+            { "name": "Pet Animals", "description": "Animals we keep at home" },
+            { "name": "Wild Animals", "description": "Animals in the wild" }
+          ]
+        },
+        {
+          "name": "Plants Around Us",
+          "description": "Understanding plants and their parts",
+          "topics": [
+            { "name": "Parts of a Plant", "description": "Roots, stem, leaves, flowers" },
+            { "name": "Plants We Use", "description": "Useful plants in daily life" }
+          ]
+        },
+        {
+          "name": "My Home",
+          "description": "Different types of houses and rooms",
+          "topics": [
+            { "name": "Types of Houses", "description": "Different kinds of homes" },
+            { "name": "Rooms and Uses", "description": "Rooms in a house and their purpose" }
+          ]
+        },
+        {
+          "name": "My School",
+          "description": "Things and people at school",
+          "topics": [
+            { "name": "School Things", "description": "Items used in school" },
+            { "name": "People at School", "description": "Teachers, friends, helpers" }
+          ]
+        },
+        {
+          "name": "Seasons",
+          "description": "Understanding weather and seasons in India",
+          "topics": [
+            { "name": "Summer and Winter", "description": "Hot and cold seasons" },
+            { "name": "Rainy Season", "description": "Monsoon and rain" }
+          ]
+        },
+        {
+          "name": "Transport",
+          "description": "Different modes of transport",
+          "topics": [
+            { "name": "Land Transport", "description": "Vehicles on road" },
+            { "name": "Water and Air Transport", "description": "Boats, ships, aeroplanes" }
+          ]
+        },
+        {
+          "name": "Our Helpers",
+          "description": "Community helpers and their roles",
+          "topics": [
+            { "name": "People Who Help Us", "description": "Doctor, teacher, police, farmer" },
+            { "name": "Respecting Helpers", "description": "Being thankful to helpers" }
+          ]
+        }
+      ]
+    }
+  ]
+}

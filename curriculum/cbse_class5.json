@@ -1,0 +1,316 @@
+{
+  "class": 5,
+  "subjects": [
+    {
+      "code": "math",
+      "name": "Mathematics",
+      "chapters": [
+        {
+          "name": "The Fish Tale",
+          "description": "Large numbers and estimation",
+          "topics": [
+            { "name": "Five and Six-digit Numbers", "description": "Place value extended" },
+            { "name": "Estimation", "description": "Rounding and estimating" }
+          ]
+        },
+        {
+          "name": "Shapes and Angles",
+          "description": "Understanding angles and shapes",
+          "topics": [
+            { "name": "Types of Angles", "description": "Right, acute, obtuse angles" },
+            { "name": "2D Shapes", "description": "Properties of common shapes" }
+          ]
+        },
+        {
+          "name": "How Many Squares",
+          "description": "Area and perimeter",
+          "topics": [
+            { "name": "Area by Counting Squares", "description": "Counting unit squares" },
+            { "name": "Perimeter", "description": "Finding boundary length" },
+            { "name": "Area and Perimeter Relationship", "description": "Comparing the two" }
+          ]
+        },
+        {
+          "name": "Parts and Wholes",
+          "description": "Fractions in depth",
+          "topics": [
+            { "name": "Understanding Fractions", "description": "Numerator and denominator" },
+            { "name": "Equivalent Fractions", "description": "Same value, different form" },
+            { "name": "Comparing Fractions", "description": "Which fraction is bigger" }
+          ]
+        },
+        {
+          "name": "Does It Look the Same",
+          "description": "Symmetry and patterns",
+          "topics": [
+            { "name": "Line Symmetry", "description": "Mirror images and fold lines" },
+            { "name": "Rotational Patterns", "description": "Turning patterns" }
+          ]
+        },
+        {
+          "name": "Be My Multiple, I'll Be Your Factor",
+          "description": "Factors and multiples",
+          "topics": [
+            { "name": "Factors", "description": "Finding factors of a number" },
+            { "name": "Multiples", "description": "Finding multiples of a number" },
+            { "name": "Common Factors and Multiples", "description": "HCF and LCM basics" }
+          ]
+        },
+        {
+          "name": "Can You See the Pattern",
+          "description": "Number and visual patterns",
+          "topics": [
+            { "name": "Number Sequences", "description": "Finding rules in sequences" },
+            { "name": "Magic Squares and Triangles", "description": "Number puzzles" }
+          ]
+        },
+        {
+          "name": "Mapping Your Way",
+          "description": "Maps and scale",
+          "topics": [
+            { "name": "Reading Maps", "description": "Understanding map symbols" },
+            { "name": "Scale and Distance", "description": "Calculating real distance" }
+          ]
+        },
+        {
+          "name": "Boxes and Sketches",
+          "description": "3D shapes and nets",
+          "topics": [
+            { "name": "Nets of Cubes", "description": "Unfolding 3D shapes" },
+            { "name": "3D Shape Properties", "description": "Faces, edges, vertices" }
+          ]
+        },
+        {
+          "name": "Tenths and Hundredths",
+          "description": "Introduction to decimals",
+          "topics": [
+            { "name": "Understanding Decimals", "description": "Tenths and hundredths place" },
+            { "name": "Decimals in Money", "description": "Rupees and paise as decimals" }
+          ]
+        },
+        {
+          "name": "Area and Its Boundary",
+          "description": "Advanced area and perimeter",
+          "topics": [
+            { "name": "Area of Rectangles", "description": "Length × breadth" },
+            { "name": "Irregular Shapes", "description": "Estimating area of irregular shapes" }
+          ]
+        },
+        {
+          "name": "Smart Charts",
+          "description": "Advanced data handling",
+          "topics": [
+            { "name": "Bar Graphs", "description": "Creating and reading bar graphs" },
+            { "name": "Pie Charts", "description": "Introduction to pie charts" },
+            { "name": "Data Analysis", "description": "Drawing conclusions from data" }
+          ]
+        },
+        {
+          "name": "Ways to Multiply and Divide",
+          "description": "Multi-digit multiplication and division",
+          "topics": [
+            { "name": "Multi-digit Multiplication", "description": "Multiplying large numbers" },
+            { "name": "Long Division", "description": "Dividing by two-digit numbers" },
+            { "name": "Word Problems", "description": "Real-life multiplication and division" }
+          ]
+        },
+        {
+          "name": "How Big, How Heavy",
+          "description": "Volume, weight, and capacity",
+          "topics": [
+            { "name": "Volume", "description": "Space occupied by objects" },
+            { "name": "Weight and Capacity", "description": "Advanced measurement" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "english",
+      "name": "English",
+      "chapters": [
+        {
+          "name": "Wonderful Waste",
+          "description": "Poem about recycling and reuse",
+          "topics": [
+            { "name": "Environment Vocabulary", "description": "Words about waste and recycling" },
+            { "name": "Rhyme Scheme", "description": "Understanding poetic structure" }
+          ]
+        },
+        {
+          "name": "Flying Together",
+          "description": "Story about teamwork and friendship",
+          "topics": [
+            { "name": "Teamwork Theme", "description": "Working together" },
+            { "name": "Story Retelling", "description": "Summarizing a story" }
+          ]
+        },
+        {
+          "name": "My Shadow",
+          "description": "Classic poem by R.L. Stevenson",
+          "topics": [
+            { "name": "Shadow Science", "description": "Understanding shadows" },
+            { "name": "Figurative Language", "description": "Personification of shadow" }
+          ]
+        },
+        {
+          "name": "Robinson Crusoe",
+          "description": "Adapted excerpt from the classic adventure",
+          "topics": [
+            { "name": "Adventure Vocabulary", "description": "Words about survival" },
+            { "name": "Diary Writing", "description": "Writing a diary entry" }
+          ]
+        },
+        {
+          "name": "Crying",
+          "description": "Poem about expressing emotions",
+          "topics": [
+            { "name": "Emotion Words", "description": "Vocabulary about feelings" },
+            { "name": "Poetry Appreciation", "description": "Understanding the poet's message" }
+          ]
+        },
+        {
+          "name": "My Elder Brother",
+          "description": "Story about siblings and relationships",
+          "topics": [
+            { "name": "Family Vocabulary", "description": "Words about relationships" },
+            { "name": "Letter Writing", "description": "Writing informal letters" }
+          ]
+        },
+        {
+          "name": "Topsy-Turvy Land",
+          "description": "Poem about an imaginary upside-down world",
+          "topics": [
+            { "name": "Opposite Words", "description": "Antonyms and contrasts" },
+            { "name": "Imagination", "description": "Creative thinking" }
+          ]
+        },
+        {
+          "name": "Nobody's Friend",
+          "description": "Poem about sharing and selfishness",
+          "topics": [
+            { "name": "Sharing Vocabulary", "description": "Words about giving and sharing" },
+            { "name": "Moral Understanding", "description": "Importance of sharing" }
+          ]
+        },
+        {
+          "name": "Sing a Song of People",
+          "description": "Poem about city life",
+          "topics": [
+            { "name": "City Vocabulary", "description": "Words about urban life" },
+            { "name": "Comprehension", "description": "Understanding city scenes" }
+          ]
+        },
+        {
+          "name": "Around the World",
+          "description": "Story about travel and discovery",
+          "topics": [
+            { "name": "Geography Words", "description": "Countries and continents" },
+            { "name": "Narrative Writing", "description": "Writing about a journey" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "evs",
+      "name": "Environmental Studies",
+      "chapters": [
+        {
+          "name": "Super Senses",
+          "description": "How animals use their senses",
+          "topics": [
+            { "name": "Animal Senses", "description": "How animals see, hear, smell" },
+            { "name": "Comparison with Humans", "description": "Animal vs human senses" }
+          ]
+        },
+        {
+          "name": "A Snake Charmer's Story",
+          "description": "Understanding snakes and their protection",
+          "topics": [
+            { "name": "Types of Snakes", "description": "Poisonous and non-poisonous" },
+            { "name": "Snake Conservation", "description": "Protecting snakes" }
+          ]
+        },
+        {
+          "name": "From Tasting to Digesting",
+          "description": "The digestive system",
+          "topics": [
+            { "name": "Taste", "description": "Sweet, sour, bitter, salty" },
+            { "name": "Digestion", "description": "Simple digestive process" }
+          ]
+        },
+        {
+          "name": "Mangoes Round the Year",
+          "description": "Food preservation",
+          "topics": [
+            { "name": "Preserving Food", "description": "Drying, pickling, freezing" },
+            { "name": "Seasonal Fruits", "description": "Fruits in different seasons" }
+          ]
+        },
+        {
+          "name": "Seeds and Seeds",
+          "description": "Seed germination and plant growth",
+          "topics": [
+            { "name": "Types of Seeds", "description": "Different seeds we eat" },
+            { "name": "Germination", "description": "How seeds grow into plants" }
+          ]
+        },
+        {
+          "name": "Every Drop Counts",
+          "description": "Water scarcity and conservation",
+          "topics": [
+            { "name": "Water Scarcity", "description": "Why water is precious" },
+            { "name": "Rainwater Harvesting", "description": "Collecting rainwater" }
+          ]
+        },
+        {
+          "name": "Experiments with Water",
+          "description": "Properties of water",
+          "topics": [
+            { "name": "Floating and Sinking", "description": "What floats and what sinks" },
+            { "name": "Dissolving", "description": "What dissolves in water" }
+          ]
+        },
+        {
+          "name": "A Treat for Mosquitoes",
+          "description": "Diseases and prevention",
+          "topics": [
+            { "name": "Mosquito-borne Diseases", "description": "Malaria, dengue" },
+            { "name": "Prevention", "description": "Keeping mosquitoes away" }
+          ]
+        },
+        {
+          "name": "Up You Go",
+          "description": "Mountains and hill stations",
+          "topics": [
+            { "name": "Mountain Life", "description": "Life in the mountains" },
+            { "name": "Altitude and Climate", "description": "Temperature changes with height" }
+          ]
+        },
+        {
+          "name": "Walls Tell Stories",
+          "description": "Historical monuments",
+          "topics": [
+            { "name": "Indian Monuments", "description": "Famous forts and palaces" },
+            { "name": "History Through Architecture", "description": "Buildings tell us about the past" }
+          ]
+        },
+        {
+          "name": "Sunita in Space",
+          "description": "Space exploration by Indian astronaut",
+          "topics": [
+            { "name": "Space Travel", "description": "Life in space" },
+            { "name": "Indian Scientists", "description": "Sunita Williams and ISRO" }
+          ]
+        },
+        {
+          "name": "What if It Finishes",
+          "description": "Natural resources and conservation",
+          "topics": [
+            { "name": "Fossil Fuels", "description": "Coal, petrol, diesel" },
+            { "name": "Renewable Energy", "description": "Solar, wind energy" }
+          ]
+        }
+      ]
+    }
+  ]
+}

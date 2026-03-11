@@ -1,0 +1,314 @@
+{
+  "class": 3,
+  "subjects": [
+    {
+      "code": "math",
+      "name": "Mathematics",
+      "chapters": [
+        {
+          "name": "Where to Look From",
+          "description": "Understanding different views of objects",
+          "topics": [
+            { "name": "Top View", "description": "Looking at objects from above" },
+            { "name": "Side View and Front View", "description": "Different perspectives" }
+          ]
+        },
+        {
+          "name": "Fun with Numbers",
+          "description": "Numbers up to 1000",
+          "topics": [
+            { "name": "Place Value", "description": "Hundreds, tens, and ones" },
+            { "name": "Comparing Numbers", "description": "Greater than and less than" },
+            { "name": "Number Patterns", "description": "Sequences and skip counting" }
+          ]
+        },
+        {
+          "name": "Give and Take",
+          "description": "Addition and subtraction of larger numbers",
+          "topics": [
+            { "name": "Three-digit Addition", "description": "Adding with carrying" },
+            { "name": "Three-digit Subtraction", "description": "Subtracting with borrowing" },
+            { "name": "Word Problems", "description": "Real-life addition and subtraction" }
+          ]
+        },
+        {
+          "name": "Long and Short",
+          "description": "Measurement of length",
+          "topics": [
+            { "name": "Metres and Centimetres", "description": "Standard units of length" },
+            { "name": "Measuring Objects", "description": "Using a ruler and tape" }
+          ]
+        },
+        {
+          "name": "Shapes and Designs",
+          "description": "2D shapes and patterns",
+          "topics": [
+            { "name": "Tiling Patterns", "description": "Filling space with shapes" },
+            { "name": "Symmetry", "description": "Line of symmetry in shapes" }
+          ]
+        },
+        {
+          "name": "Fun with Give and Take",
+          "description": "Mental math strategies",
+          "topics": [
+            { "name": "Mental Addition", "description": "Adding in the head" },
+            { "name": "Mental Subtraction", "description": "Subtracting in the head" }
+          ]
+        },
+        {
+          "name": "Time Goes On",
+          "description": "Telling time and calendar",
+          "topics": [
+            { "name": "Reading a Clock", "description": "Hours and half hours" },
+            { "name": "Calendar Reading", "description": "Months, weeks, and dates" }
+          ]
+        },
+        {
+          "name": "Who is Heavier",
+          "description": "Understanding weight",
+          "topics": [
+            { "name": "Kilograms and Grams", "description": "Standard units of weight" },
+            { "name": "Comparing Weights", "description": "Heavier and lighter" }
+          ]
+        },
+        {
+          "name": "How Many Times",
+          "description": "Introduction to multiplication",
+          "topics": [
+            { "name": "Repeated Addition", "description": "Understanding multiplication concept" },
+            { "name": "Multiplication Tables", "description": "Tables of 2, 3, 4, 5" }
+          ]
+        },
+        {
+          "name": "Play with Patterns",
+          "description": "Number and shape patterns",
+          "topics": [
+            { "name": "Growing Patterns", "description": "Increasing number patterns" },
+            { "name": "Tiling Patterns", "description": "Repeating designs" }
+          ]
+        },
+        {
+          "name": "Jugs and Mugs",
+          "description": "Understanding capacity and volume",
+          "topics": [
+            { "name": "Litres and Millilitres", "description": "Units of capacity" },
+            { "name": "Estimating Capacity", "description": "Guessing and measuring" }
+          ]
+        },
+        {
+          "name": "Can We Share",
+          "description": "Introduction to division",
+          "topics": [
+            { "name": "Equal Sharing", "description": "Dividing into equal groups" },
+            { "name": "Division Facts", "description": "Basic division problems" }
+          ]
+        },
+        {
+          "name": "Smart Charts",
+          "description": "Data handling and bar graphs",
+          "topics": [
+            { "name": "Pictographs", "description": "Reading and creating pictographs" },
+            { "name": "Bar Graphs", "description": "Introduction to bar graphs" }
+          ]
+        },
+        {
+          "name": "Rupees and Paise",
+          "description": "Money calculations",
+          "topics": [
+            { "name": "Adding Money", "description": "Adding amounts in rupees and paise" },
+            { "name": "Making Change", "description": "Calculating change" },
+            { "name": "Shopping Problems", "description": "Real-life money problems" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "english",
+      "name": "English",
+      "chapters": [
+        {
+          "name": "Good Morning",
+          "description": "Poem about greeting the new day",
+          "topics": [
+            { "name": "Greetings Vocabulary", "description": "Words for greeting" },
+            { "name": "Rhyme and Rhythm", "description": "Poetic patterns" }
+          ]
+        },
+        {
+          "name": "The Magic Garden",
+          "description": "Story about a beautiful garden",
+          "topics": [
+            { "name": "Reading Comprehension", "description": "Understanding the story" },
+            { "name": "Nature Vocabulary", "description": "Words about nature and gardens" }
+          ]
+        },
+        {
+          "name": "Bird Talk",
+          "description": "Poem about different birds",
+          "topics": [
+            { "name": "Bird Names", "description": "Names of common Indian birds" },
+            { "name": "Poetry Appreciation", "description": "Enjoying bird poetry" }
+          ]
+        },
+        {
+          "name": "Nina and the Baby Sparrows",
+          "description": "Story about caring for birds",
+          "topics": [
+            { "name": "Story Elements", "description": "Characters, setting, plot" },
+            { "name": "Caring Vocabulary", "description": "Words about kindness and care" }
+          ]
+        },
+        {
+          "name": "Little by Little",
+          "description": "Poem about growth and patience",
+          "topics": [
+            { "name": "Growth Words", "description": "Vocabulary about growing" },
+            { "name": "Moral Understanding", "description": "Patience and perseverance" }
+          ]
+        },
+        {
+          "name": "The Enormous Turnip",
+          "description": "Classic story about teamwork",
+          "topics": [
+            { "name": "Sequence of Events", "description": "Order of the story" },
+            { "name": "Doing Words", "description": "Verbs — pull, push, help" }
+          ]
+        },
+        {
+          "name": "Sea Song",
+          "description": "Poem about the sea",
+          "topics": [
+            { "name": "Sea Vocabulary", "description": "Words about the ocean" },
+            { "name": "Descriptive Language", "description": "Using adjectives" }
+          ]
+        },
+        {
+          "name": "A Little Fish Story",
+          "description": "Story about a fish's adventure",
+          "topics": [
+            { "name": "Adventure Vocabulary", "description": "Words about journeys" },
+            { "name": "Question Formation", "description": "Asking questions about a story" }
+          ]
+        },
+        {
+          "name": "Trains",
+          "description": "Poem about train journeys",
+          "topics": [
+            { "name": "Transport Words", "description": "Vocabulary about trains and travel" },
+            { "name": "Sound Words", "description": "Onomatopoeia" }
+          ]
+        },
+        {
+          "name": "The Balloon Man",
+          "description": "Poem about a street balloon seller",
+          "topics": [
+            { "name": "Colour and Shape Words", "description": "Describing balloons" },
+            { "name": "Comprehension", "description": "Understanding the poem" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "evs",
+      "name": "Environmental Studies",
+      "chapters": [
+        {
+          "name": "Poonam's Day Out",
+          "description": "Observing nature and the environment",
+          "topics": [
+            { "name": "Observing Nature", "description": "Things we see outdoors" },
+            { "name": "Living and Non-living", "description": "Distinguishing living things" }
+          ]
+        },
+        {
+          "name": "The Plant Fairy",
+          "description": "Understanding plant life",
+          "topics": [
+            { "name": "How Plants Grow", "description": "Germination and growth" },
+            { "name": "Parts of a Plant", "description": "Root, stem, leaf, flower" }
+          ]
+        },
+        {
+          "name": "Water O Water",
+          "description": "Water and its importance",
+          "topics": [
+            { "name": "Sources of Water", "description": "Rain, rivers, wells, taps" },
+            { "name": "Water Conservation", "description": "Saving water" }
+          ]
+        },
+        {
+          "name": "Our First School",
+          "description": "Family as the first school",
+          "topics": [
+            { "name": "Learning at Home", "description": "What family teaches us" },
+            { "name": "Family Culture", "description": "Traditions and customs" }
+          ]
+        },
+        {
+          "name": "Chhotu's House",
+          "description": "Different types of houses and shelters",
+          "topics": [
+            { "name": "Types of Houses", "description": "Kutcha, pucca, hut, flat" },
+            { "name": "Materials Used", "description": "Brick, mud, bamboo, cement" }
+          ]
+        },
+        {
+          "name": "Foods We Eat",
+          "description": "Understanding food diversity",
+          "topics": [
+            { "name": "Food Variety in India", "description": "Regional foods" },
+            { "name": "Balanced Diet", "description": "Energy food, body-building food" }
+          ]
+        },
+        {
+          "name": "Saying Without Speaking",
+          "description": "Non-verbal communication",
+          "topics": [
+            { "name": "Sign Language", "description": "Communicating without words" },
+            { "name": "Animal Communication", "description": "How animals communicate" }
+          ]
+        },
+        {
+          "name": "Flying High",
+          "description": "Birds and their features",
+          "topics": [
+            { "name": "Bird Features", "description": "Beaks, claws, feathers" },
+            { "name": "Bird Habitats", "description": "Nests and homes of birds" }
+          ]
+        },
+        {
+          "name": "It's Raining",
+          "description": "Rain and its effects",
+          "topics": [
+            { "name": "Water Cycle", "description": "Simple water cycle" },
+            { "name": "Effects of Rain", "description": "Good and bad effects" }
+          ]
+        },
+        {
+          "name": "What is Cooking",
+          "description": "Food preparation and cooking methods",
+          "topics": [
+            { "name": "Cooking Methods", "description": "Boiling, frying, roasting" },
+            { "name": "Kitchen Safety", "description": "Being safe in the kitchen" }
+          ]
+        },
+        {
+          "name": "From Here to There",
+          "description": "Transport and travel",
+          "topics": [
+            { "name": "Modes of Transport", "description": "Bus, train, auto, cycle" },
+            { "name": "Fuel and Energy", "description": "What makes vehicles move" }
+          ]
+        },
+        {
+          "name": "Work We Do",
+          "description": "Occupations and professions",
+          "topics": [
+            { "name": "Different Jobs", "description": "Farmer, doctor, teacher, etc." },
+            { "name": "Dignity of Labour", "description": "Respecting all work" }
+          ]
+        }
+      ]
+    }
+  ]
+}

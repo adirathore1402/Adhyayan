@@ -1,0 +1,58 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+bin/
+obj/
+out/
+
+# NuGet
+*.nupkg
+**/packages/*
+*.nuget.props
+*.nuget.targets
+project.lock.json
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+[Dd]esktop[Ii]ni
+
+# Rider
+.idea/
+
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+# Sensitive / environment-specific configuration
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+
+# Node / React
+node_modules/
+dist/
+.vite/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+!.env.example
+src/package-lock.json

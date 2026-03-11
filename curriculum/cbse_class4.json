@@ -1,0 +1,312 @@
+{
+  "class": 4,
+  "subjects": [
+    {
+      "code": "math",
+      "name": "Mathematics",
+      "chapters": [
+        {
+          "name": "Building with Bricks",
+          "description": "Shapes and spatial understanding",
+          "topics": [
+            { "name": "3D Shapes", "description": "Cubes, cuboids, cylinders" },
+            { "name": "Patterns with Bricks", "description": "Creating patterns using shapes" }
+          ]
+        },
+        {
+          "name": "Long and Short",
+          "description": "Measurement of length in detail",
+          "topics": [
+            { "name": "Kilometres and Metres", "description": "Larger units of length" },
+            { "name": "Conversion", "description": "Converting between units" }
+          ]
+        },
+        {
+          "name": "A Trip to Bhopal",
+          "description": "Understanding large numbers and distance",
+          "topics": [
+            { "name": "Four-digit Numbers", "description": "Thousands place" },
+            { "name": "Reading Distances", "description": "Understanding distance charts" }
+          ]
+        },
+        {
+          "name": "Tick Tick Tick",
+          "description": "Time and its measurement",
+          "topics": [
+            { "name": "Minutes and Hours", "description": "Reading time precisely" },
+            { "name": "Duration", "description": "Calculating time duration" }
+          ]
+        },
+        {
+          "name": "The Way the World Looks",
+          "description": "Maps and directions",
+          "topics": [
+            { "name": "Directions", "description": "North, south, east, west" },
+            { "name": "Simple Maps", "description": "Reading and drawing simple maps" }
+          ]
+        },
+        {
+          "name": "The Junk Seller",
+          "description": "Multiplication and large numbers",
+          "topics": [
+            { "name": "Two-digit Multiplication", "description": "Multiplying by two-digit numbers" },
+            { "name": "Word Problems", "description": "Real-life multiplication" }
+          ]
+        },
+        {
+          "name": "Jugs and Mugs",
+          "description": "Capacity and volume",
+          "topics": [
+            { "name": "Litres and Millilitres", "description": "Measuring capacity" },
+            { "name": "Conversion Problems", "description": "Converting between units" }
+          ]
+        },
+        {
+          "name": "Carts and Wheels",
+          "description": "Understanding circles and semicircles",
+          "topics": [
+            { "name": "Circles", "description": "Radius, diameter basics" },
+            { "name": "Curved Shapes", "description": "Semicircles and quarter circles" }
+          ]
+        },
+        {
+          "name": "Halves and Quarters",
+          "description": "Introduction to fractions",
+          "topics": [
+            { "name": "Understanding Half", "description": "One-half of shapes and numbers" },
+            { "name": "Understanding Quarter", "description": "One-quarter concept" },
+            { "name": "Comparing Fractions", "description": "Which is bigger" }
+          ]
+        },
+        {
+          "name": "Play with Patterns",
+          "description": "Number and shape patterns",
+          "topics": [
+            { "name": "Number Patterns", "description": "Arithmetic sequences" },
+            { "name": "Magic Squares", "description": "Number puzzles" }
+          ]
+        },
+        {
+          "name": "Tables and Shares",
+          "description": "Multiplication tables and division",
+          "topics": [
+            { "name": "Multiplication Tables", "description": "Tables up to 10" },
+            { "name": "Division", "description": "Dividing two and three-digit numbers" }
+          ]
+        },
+        {
+          "name": "How Heavy, How Light",
+          "description": "Weight measurement",
+          "topics": [
+            { "name": "Kilograms and Grams", "description": "Measuring and comparing weight" },
+            { "name": "Weight Word Problems", "description": "Real-life weight calculations" }
+          ]
+        },
+        {
+          "name": "Fields and Fences",
+          "description": "Perimeter",
+          "topics": [
+            { "name": "Perimeter of Shapes", "description": "Finding the boundary length" },
+            { "name": "Perimeter Word Problems", "description": "Fencing and border problems" }
+          ]
+        },
+        {
+          "name": "Smart Charts",
+          "description": "Data handling",
+          "topics": [
+            { "name": "Bar Graphs", "description": "Reading and drawing bar graphs" },
+            { "name": "Data Interpretation", "description": "Answering questions from graphs" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "english",
+      "name": "English",
+      "chapters": [
+        {
+          "name": "Neha's Alarm Clock",
+          "description": "Story about responsibility and routine",
+          "topics": [
+            { "name": "Story Comprehension", "description": "Understanding character actions" },
+            { "name": "Time Vocabulary", "description": "Words about time and routine" }
+          ]
+        },
+        {
+          "name": "The Little Fir Tree",
+          "description": "Story about contentment",
+          "topics": [
+            { "name": "Moral of the Story", "description": "Being happy with what you have" },
+            { "name": "Nature Words", "description": "Tree and forest vocabulary" }
+          ]
+        },
+        {
+          "name": "Run!",
+          "description": "Poem about running and freedom",
+          "topics": [
+            { "name": "Action Words", "description": "Verbs related to movement" },
+            { "name": "Poetry Reading", "description": "Rhythm and expression" }
+          ]
+        },
+        {
+          "name": "Nasruddin's Aim",
+          "description": "Humorous folk tale",
+          "topics": [
+            { "name": "Humor in Stories", "description": "Understanding comedy" },
+            { "name": "Dialogue", "description": "Reading and writing dialogues" }
+          ]
+        },
+        {
+          "name": "Alice in Wonderland",
+          "description": "Classic fantasy story excerpt",
+          "topics": [
+            { "name": "Fantasy Vocabulary", "description": "Words about imaginary worlds" },
+            { "name": "Character Description", "description": "Describing characters" }
+          ]
+        },
+        {
+          "name": "Don't Be Afraid of the Dark",
+          "description": "Poem about bravery",
+          "topics": [
+            { "name": "Feelings Words", "description": "Brave, afraid, worried" },
+            { "name": "Rhyming Patterns", "description": "Finding rhyme schemes" }
+          ]
+        },
+        {
+          "name": "Hiawatha",
+          "description": "Poem about a young boy's adventures in nature",
+          "topics": [
+            { "name": "Nature Adventure", "description": "Exploring the outdoors" },
+            { "name": "Descriptive Writing", "description": "Using describing words" }
+          ]
+        },
+        {
+          "name": "A Watering Rhyme",
+          "description": "Poem about caring for plants",
+          "topics": [
+            { "name": "Plant Care Vocabulary", "description": "Words about gardening" },
+            { "name": "Poem Comprehension", "description": "Understanding the message" }
+          ]
+        },
+        {
+          "name": "Books",
+          "description": "Poem about the joy of reading",
+          "topics": [
+            { "name": "Reading Vocabulary", "description": "Words about books and reading" },
+            { "name": "Expression", "description": "Expressing love for books" }
+          ]
+        },
+        {
+          "name": "Going to Buy a Book",
+          "description": "Story about visiting a bookshop",
+          "topics": [
+            { "name": "Shopping Vocabulary", "description": "Words about buying" },
+            { "name": "Paragraph Writing", "description": "Writing short paragraphs" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "evs",
+      "name": "Environmental Studies",
+      "chapters": [
+        {
+          "name": "Going to School",
+          "description": "Different ways children go to school in India",
+          "topics": [
+            { "name": "Transport to School", "description": "Walking, cycling, buses, boats" },
+            { "name": "Schools in India", "description": "Different types of schools" }
+          ]
+        },
+        {
+          "name": "Ear to Ear",
+          "description": "Understanding our sense organs",
+          "topics": [
+            { "name": "Sense Organs", "description": "Eyes, ears, nose, tongue, skin" },
+            { "name": "Caring for Our Senses", "description": "Protecting sense organs" }
+          ]
+        },
+        {
+          "name": "A Day with Nandu",
+          "description": "Learning about elephants",
+          "topics": [
+            { "name": "Elephant Life", "description": "Habits and habitat of elephants" },
+            { "name": "Animal Families", "description": "How animal families live" }
+          ]
+        },
+        {
+          "name": "The Story of Amrita",
+          "description": "Protecting trees and forests",
+          "topics": [
+            { "name": "Importance of Forests", "description": "Why forests matter" },
+            { "name": "Forest Conservation", "description": "Chipko movement and tree protection" }
+          ]
+        },
+        {
+          "name": "Anita and the Honeybees",
+          "description": "Learning about honeybees",
+          "topics": [
+            { "name": "Bee Colony", "description": "How bees live and work" },
+            { "name": "Honey Making", "description": "How bees make honey" }
+          ]
+        },
+        {
+          "name": "Omana's Journey",
+          "description": "Kerala backwaters and travel",
+          "topics": [
+            { "name": "Waterways", "description": "Travel by water in India" },
+            { "name": "Kerala Geography", "description": "Backwaters and landscape" }
+          ]
+        },
+        {
+          "name": "From the Window",
+          "description": "Observing from a train",
+          "topics": [
+            { "name": "Landscapes", "description": "Mountains, plains, rivers" },
+            { "name": "Observation Skills", "description": "Noticing details" }
+          ]
+        },
+        {
+          "name": "Reaching Grandmother's House",
+          "description": "Rural and urban life",
+          "topics": [
+            { "name": "Village Life", "description": "Life in a village" },
+            { "name": "City vs Village", "description": "Comparing lifestyles" }
+          ]
+        },
+        {
+          "name": "Changing Families",
+          "description": "How families change over time",
+          "topics": [
+            { "name": "Family Changes", "description": "Growing up in a family" },
+            { "name": "Celebrations", "description": "Family festivals and ceremonies" }
+          ]
+        },
+        {
+          "name": "Hu Tu Tu Tu",
+          "description": "Traditional Indian games",
+          "topics": [
+            { "name": "Indian Games", "description": "Kabaddi, kho-kho, gilli-danda" },
+            { "name": "Teamwork", "description": "Playing together" }
+          ]
+        },
+        {
+          "name": "The Valley of Flowers",
+          "description": "National parks and biodiversity",
+          "topics": [
+            { "name": "Valley of Flowers", "description": "Famous national park" },
+            { "name": "Biodiversity", "description": "Variety of plants and animals" }
+          ]
+        },
+        {
+          "name": "Changing Times",
+          "description": "How things have changed over time",
+          "topics": [
+            { "name": "Old and New", "description": "How tools and life have changed" },
+            { "name": "Technology Changes", "description": "From bullock cart to car" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -11,7 +11,8 @@ public class OpenAiQuestionGeneratorService : IQuestionGeneratorService
 {
     private readonly HttpClient _httpClient;
     private readonly string _apiKey;
-    private readonly string _model;
+    private readonly string _endpoint;
+    private readonly string _deploymentName;
     private readonly ILogger<OpenAiQuestionGeneratorService> _logger;
 
     public OpenAiQuestionGeneratorService(
@@ -20,8 +21,9 @@ public class OpenAiQuestionGeneratorService : IQuestionGeneratorService
         ILogger<OpenAiQuestionGeneratorService> logger)
     {
         _httpClient = httpClient;
-        _apiKey = configuration["OpenAI:ApiKey"] ?? "";
-        _model = configuration["OpenAI:Model"] ?? "gpt-4o-mini";
+        _apiKey = configuration["AzureOpenAI:ApiKey"] ?? "";
+        _endpoint = (configuration["AzureOpenAI:Endpoint"] ?? "").TrimEnd('/');
+        _deploymentName = configuration["AzureOpenAI:DeploymentName"] ?? "gpt-4o-mini";
         _logger = logger;
     }
 
@@ -56,7 +58,6 @@ public class OpenAiQuestionGeneratorService : IQuestionGeneratorService
         {
             var requestBody = new
             {
-                model = _model,
                 messages = new[]
                 {
                     new { role = "system", content = "You are an expert educational content creator for Indian school children. You create original, curriculum-aligned questions." },
@@ -66,18 +67,26 @@ public class OpenAiQuestionGeneratorService : IQuestionGeneratorService
                 max_tokens = 3000
             };
 
-            var request = new HttpRequestMessage(HttpMethod.Post, "https://api.openai.com/v1/chat/completions");
-            request.Headers.Add("Authorization", $"Bearer {_apiKey}");
+            var apiVersion = "2024-08-01-preview";
+            var url = $"{_endpoint}/openai/deployments/{_deploymentName}/chat/completions?api-version={apiVersion}";
+
+            var request = new HttpRequestMessage(HttpMethod.Post, url);
+            request.Headers.Add("api-key", _apiKey);
             request.Content = new StringContent(
                 JsonSerializer.Serialize(requestBody),
                 System.Text.Encoding.UTF8,
                 "application/json");
 
             var response = await _httpClient.SendAsync(request);
-            response.EnsureSuccessStatusCode();
+            var responseBody = await response.Content.ReadAsStringAsync();
 
-            var responseJson = await response.Content.ReadAsStringAsync();
-            using var doc = JsonDocument.Parse(responseJson);
+            if (!response.IsSuccessStatusCode)
+            {
+                _logger.LogError("Azure OpenAI returned {StatusCode}: {Body}", response.StatusCode, responseBody);
+                return Enumerable.Empty<GeneratedQuestionDto>();
+            }
+
+            using var doc = JsonDocument.Parse(responseBody);
             var content = doc.RootElement
                 .GetProperty("choices")[0]
                 .GetProperty("message")
@@ -106,7 +115,7 @@ public class OpenAiQuestionGeneratorService : IQuestionGeneratorService
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Failed to generate questions via OpenAI for {Board} Grade {Grade} {Subject} - {Chapter}",
+            _logger.LogError(ex, "Failed to generate questions via Azure OpenAI for {Board} Grade {Grade} {Subject} - {Chapter}",
                 board, grade, subject, chapter);
             return Enumerable.Empty<GeneratedQuestionDto>();
         }

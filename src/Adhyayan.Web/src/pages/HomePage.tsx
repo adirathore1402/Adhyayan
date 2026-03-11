@@ -1,36 +1,66 @@
 import { Link } from 'react-router-dom';
+import { useTheme } from '../context/ThemeContext';
+
+const mascots: Record<string, string> = {
+  candy: '🦄',
+  ocean: '🐬',
+  jungle: '🐯',
+  space: '👩‍🚀',
+  sunset: '🦋',
+};
+
+const taglines: Record<string, string> = {
+  candy: 'Sweet Learning Adventures Await!',
+  ocean: 'Dive Into a Sea of Knowledge!',
+  jungle: 'Explore the Wild World of Learning!',
+  space: 'Blast Off to Brilliant Learning!',
+  sunset: 'Let Your Knowledge Shine Bright!',
+};
 
 export default function HomePage() {
+  const { theme } = useTheme();
+  const mascot = mascots[theme] || '📚';
+  const tagline = taglines[theme] || 'Learn, Grow, Shine!';
+
   return (
     <div className="hero">
-      <h1>Welcome to Adhyayan 📚</h1>
-      <p>
-        AI-powered, curriculum-aligned learning for Indian school children.
-        Aligned with CBSE, Maharashtra, Karnataka, Tamil Nadu, UP, and MP boards.
-        Classes 1 to 5 — Math, English, EVS.
+      <div style={{ fontSize: '4rem', marginBottom: 16, animation: 'mega-bounce 2s ease infinite' }}>
+        {mascot}
+      </div>
+      <h1>Adhyayan अध्ययन</h1>
+      <p className="hero-subtitle">{tagline}</p>
+      <p className="hero-subtitle" style={{ fontSize: '0.95rem', marginTop: -16, opacity: 0.8 }}>
+        AI-powered learning for Classes 1–5 · CBSE + 5 State Boards · Math · English · EVS
       </p>
       <div className="hero-actions">
-        <Link to="/practice" className="btn btn-primary">Start Practicing</Link>
-        <Link to="/register" className="btn btn-outline">Create Account</Link>
+        <Link to="/practice" className="btn btn-primary btn-lg">
+          🚀 Start Practicing
+        </Link>
+        <Link to="/register" className="btn btn-outline btn-lg">
+          ✨ Create Account
+        </Link>
       </div>
 
-      <div className="card-grid" style={{ maxWidth: 900, margin: '48px auto 0' }}>
-        <div className="card" style={{ textAlign: 'left' }}>
-          <h3>📖 Chapter Practice</h3>
-          <p style={{ color: 'var(--text-light)', marginTop: 8 }}>
-            Choose your board, class, subject, and chapter. Practice with AI-generated questions aligned to your syllabus.
+      <div className="card-grid" style={{ maxWidth: 960, margin: '48px auto 0' }}>
+        <div className="card feature-card anim-slide-up-1">
+          <span className="feature-icon">📖</span>
+          <h3>Chapter Practice</h3>
+          <p style={{ color: 'var(--text-light)', fontWeight: 600, marginTop: 8 }}>
+            Pick your board, class, subject & chapter. AI creates questions just for your syllabus!
           </p>
         </div>
-        <div className="card" style={{ textAlign: 'left' }}>
-          <h3>🌟 Daily Adventure</h3>
-          <p style={{ color: 'var(--text-light)', marginTop: 8 }}>
-            Fun daily practice with mostly easy questions to build confidence and keep learning enjoyable.
+        <div className="card feature-card anim-slide-up-2">
+          <span className="feature-icon">🌟</span>
+          <h3>Daily Adventure</h3>
+          <p style={{ color: 'var(--text-light)', fontWeight: 600, marginTop: 8 }}>
+            Fun daily challenges that build confidence. Earn streaks and celebrate every win!
           </p>
         </div>
-        <div className="card" style={{ textAlign: 'left' }}>
-          <h3>📊 Parent Dashboard</h3>
-          <p style={{ color: 'var(--text-light)', marginTop: 8 }}>
-            Track your child's progress by chapter. See accuracy and identify areas that need more practice.
+        <div className="card feature-card anim-slide-up-3">
+          <span className="feature-icon">📊</span>
+          <h3>Parent Dashboard</h3>
+          <p style={{ color: 'var(--text-light)', fontWeight: 600, marginTop: 8 }}>
+            Track progress by chapter. See accuracy scores and find where extra practice helps.
           </p>
         </div>
       </div>

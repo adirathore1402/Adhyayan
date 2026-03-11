@@ -47,34 +47,42 @@ export default function PracticePage() {
     }
   }
 
-  if (loading) return <div className="loading">Loading curriculum...</div>;
+  if (loading) return (
+    <div className="loading">
+      <div className="loading-spinner" />
+      <div className="loading-text">Loading curriculum...</div>
+    </div>
+  );
 
   return (
     <div className="page container">
-      <h1 className="page-title">Chapter Practice</h1>
-      <p className="page-subtitle">Choose your board, class, subject, and chapter to start practicing.</p>
+      <h1 className="page-title">📖 Chapter Practice</h1>
+      <p className="page-subtitle">Pick your path below — all choices in one place!</p>
 
-      {/* Step 1: Choose Board */}
-      <h3>1. Choose Board</h3>
-      <div className="selector-grid">
-        {boards.map(b => (
-          <div
-            key={b.id}
-            className={`selector-item ${selectedBoard?.id === b.id ? 'selected' : ''}`}
-            onClick={() => setSelectedBoard(b)}
-          >
-            {b.name}
-            {b.isPrimary && <span className="badge badge-easy" style={{ marginLeft: 8 }}>Primary</span>}
-          </div>
-        ))}
-      </div>
-
-      {/* Step 2: Choose Grade */}
-      {selectedBoard && (
-        <>
-          <h3>2. Choose Class</h3>
+      {/* All 4 selectors in a 2x2 grid — no scrolling needed */}
+      <div className="practice-selectors">
+        {/* Board */}
+        <div className={`selector-section anim-slide-up-1 ${selectedBoard ? 'active' : ''}`}>
+          <h3>🏫 Board</h3>
           <div className="selector-grid">
-            {grades.map(g => (
+            {boards.map(b => (
+              <div
+                key={b.id}
+                className={`selector-item ${selectedBoard?.id === b.id ? 'selected' : ''}`}
+                onClick={() => setSelectedBoard(b)}
+              >
+                {b.name}
+                {b.isPrimary && <span className="badge badge-easy" style={{ marginLeft: 6, fontSize: '0.65rem' }}>★</span>}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Grade */}
+        <div className={`selector-section anim-slide-up-2 ${selectedGrade ? 'active' : ''}`}>
+          <h3>🎓 Class</h3>
+          <div className="selector-grid">
+            {selectedBoard ? grades.map(g => (
               <div
                 key={g.id}
                 className={`selector-item ${selectedGrade?.id === g.id ? 'selected' : ''}`}
@@ -82,57 +90,68 @@ export default function PracticePage() {
               >
                 {g.displayName}
               </div>
-            ))}
+            )) : (
+              <div style={{ color: 'var(--text-light)', fontWeight: 600, fontSize: '0.85rem', padding: 8 }}>
+                ← Pick a board first
+              </div>
+            )}
           </div>
-        </>
-      )}
+        </div>
 
-      {/* Step 3: Choose Subject */}
-      {selectedGrade && (
-        <>
-          <h3>3. Choose Subject</h3>
+        {/* Subject */}
+        <div className={`selector-section anim-slide-up-3 ${selectedSubject ? 'active' : ''}`}>
+          <h3>📚 Subject</h3>
           <div className="selector-grid">
-            {subjects.map(s => (
+            {selectedGrade ? subjects.map(s => (
               <div
                 key={s.id}
                 className={`selector-item ${selectedSubject?.id === s.id ? 'selected' : ''}`}
                 onClick={() => setSelectedSubject(s)}
               >
-                {s.name}
+                {s.name === 'Mathematics' ? '🔢' : s.name === 'English' ? '🔤' : '🌿'} {s.name}
               </div>
-            ))}
+            )) : (
+              <div style={{ color: 'var(--text-light)', fontWeight: 600, fontSize: '0.85rem', padding: 8 }}>
+                ← Pick class first
+              </div>
+            )}
           </div>
-        </>
-      )}
+        </div>
 
-      {/* Step 4: Choose Chapter */}
-      {selectedSubject && chapters.length > 0 && (
-        <>
-          <h3>4. Choose Chapter</h3>
-          <div className="selector-grid">
-            {chapters.map(c => (
+        {/* Chapter */}
+        <div className={`selector-section anim-slide-up-4 ${selectedChapter ? 'active' : ''}`}>
+          <h3>📄 Chapter</h3>
+          <div className="selector-grid" style={{ maxHeight: 200, overflowY: 'auto', gridTemplateColumns: '1fr' }}>
+            {selectedSubject && chapters.length > 0 ? chapters.map(c => (
               <div
                 key={c.id}
                 className={`selector-item ${selectedChapter?.id === c.id ? 'selected' : ''}`}
                 onClick={() => setSelectedChapter(c)}
+                style={{ textAlign: 'left', padding: '8px 12px' }}
               >
-                <div>Ch {c.chapterNumber}: {c.name}</div>
+                <div style={{ fontWeight: 700, fontSize: '0.85rem' }}>
+                  Ch {c.chapterNumber}: {c.name}
+                </div>
                 {c.topics && c.topics.length > 0 && (
-                  <div style={{ fontSize: '0.8rem', color: 'var(--text-light)', marginTop: 4 }}>
+                  <div style={{ fontSize: '0.7rem', color: 'var(--text-light)', marginTop: 2 }}>
                     {c.topics.length} topic{c.topics.length > 1 ? 's' : ''}
                   </div>
                 )}
               </div>
-            ))}
+            )) : (
+              <div style={{ color: 'var(--text-light)', fontWeight: 600, fontSize: '0.85rem', padding: 8 }}>
+                {selectedSubject ? 'No chapters found' : '← Pick subject first'}
+              </div>
+            )}
           </div>
-        </>
-      )}
+        </div>
+      </div>
 
       {/* Start Button */}
       {selectedChapter && (
-        <div style={{ textAlign: 'center', marginTop: 32 }}>
-          <button className="btn btn-primary" onClick={handleStartPractice} style={{ fontSize: '1.1rem', padding: '14px 40px' }}>
-            Start Practice — {selectedChapter.name}
+        <div style={{ textAlign: 'center', marginTop: 24, animation: 'scale-in 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)' }}>
+          <button className="btn btn-primary btn-lg" onClick={handleStartPractice}>
+            🚀 Start Practice — {selectedChapter.name}
           </button>
         </div>
       )}

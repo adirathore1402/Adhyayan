@@ -43,58 +43,70 @@ export default function DashboardPage() {
     }
   }
 
-  if (loading) return <div className="loading">Loading dashboard...</div>;
+  if (loading) return (
+    <div className="loading">
+      <div className="loading-spinner" />
+      <div className="loading-text">Loading dashboard...</div>
+    </div>
+  );
 
   return (
     <div className="page container">
-      <h1 className="page-title">Parent Dashboard</h1>
-      <p className="page-subtitle">Welcome, {parentName}! Track your children's learning progress.</p>
+      <h1 className="page-title">📊 Parent Dashboard</h1>
+      <p className="page-subtitle">Welcome, {parentName}! 👋 Track your children's learning journey.</p>
 
       {/* Children List */}
-      <div style={{ display: 'flex', gap: 16, alignItems: 'center', marginBottom: 24 }}>
-        <h3>Children</h3>
+      <div style={{ display: 'flex', gap: 16, alignItems: 'center', marginBottom: 24, flexWrap: 'wrap' }}>
+        <h3 style={{ fontFamily: 'var(--font-display)', color: 'var(--primary)' }}>👧👦 Children</h3>
         <button className="btn btn-outline btn-sm" onClick={() => setShowAddChild(!showAddChild)}>
-          + Add Child
+          ➕ Add Child
         </button>
       </div>
 
       {showAddChild && (
-        <div className="card" style={{ marginBottom: 20, maxWidth: 500 }}>
+        <div className="card anim-slide-up" style={{ marginBottom: 20, maxWidth: 500 }}>
           <div className="form-group">
-            <label>Child's Name</label>
+            <label>👤 Child's Name</label>
             <input type="text" value={newChildName} onChange={e => setNewChildName(e.target.value)} placeholder="Enter child's name" />
           </div>
           <div className="form-group">
-            <label>Class</label>
+            <label>🎓 Class</label>
             <select value={newChildGrade} onChange={e => setNewChildGrade(parseInt(e.target.value))}>
               {[1, 2, 3, 4, 5].map(g => <option key={g} value={g}>Class {g}</option>)}
             </select>
           </div>
           <div className="form-group">
-            <label>Board</label>
+            <label>🏫 Board</label>
             <select value={newChildBoard} onChange={e => setNewChildBoard(parseInt(e.target.value))}>
               {boards.map(b => <option key={b.id} value={b.id}>{b.name}</option>)}
             </select>
           </div>
-          <button className="btn btn-primary" onClick={handleAddChild}>Add Child</button>
+          <button className="btn btn-primary" onClick={handleAddChild}>✅ Add Child</button>
         </div>
       )}
 
       {children.length === 0 ? (
-        <div className="card" style={{ textAlign: 'center', padding: 40 }}>
-          <p style={{ color: 'var(--text-light)' }}>No children added yet. Add a child to start tracking progress.</p>
+        <div className="card" style={{ textAlign: 'center', padding: 48 }}>
+          <div style={{ fontSize: '3rem', marginBottom: 12 }}>👨‍👩‍👧‍👦</div>
+          <p style={{ color: 'var(--text-light)', fontWeight: 700, fontSize: '1.05rem' }}>
+            No children added yet. Add a child to start tracking progress!
+          </p>
         </div>
       ) : (
-        <div className="selector-grid" style={{ marginBottom: 32 }}>
-          {children.map(c => (
+        <div className="selector-grid" style={{ marginBottom: 32, gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))' }}>
+          {children.map((c, i) => (
             <div
               key={c.id}
-              className={`selector-item ${selectedChild?.id === c.id ? 'selected' : ''}`}
+              className={`selector-item anim-slide-up-${Math.min(i + 1, 4)} ${selectedChild?.id === c.id ? 'selected' : ''}`}
               onClick={() => setSelectedChild(c)}
+              style={{ padding: 16 }}
             >
-              <div style={{ fontSize: '1.1rem', fontWeight: 700 }}>{c.name}</div>
-              <div style={{ fontSize: '0.85rem', color: 'var(--text-light)' }}>
-                Class {c.gradeNumber} • {c.board.name}
+              <div style={{ fontSize: '2rem', marginBottom: 4 }}>
+                {i % 2 === 0 ? '👧' : '👦'}
+              </div>
+              <div style={{ fontSize: '1rem', fontWeight: 800 }}>{c.name}</div>
+              <div style={{ fontSize: '0.8rem', color: 'var(--text-light)', fontWeight: 600, marginTop: 4 }}>
+                Class {c.gradeNumber} · {c.board.name}
               </div>
             </div>
           ))}
@@ -103,36 +115,47 @@ export default function DashboardPage() {
 
       {/* Progress Display */}
       {selectedChild && progress && (
-        <div>
-          <h3 style={{ marginBottom: 16 }}>
-            Progress: {progress.childName} — Class {progress.gradeNumber} ({progress.boardName})
+        <div className="anim-slide-up">
+          <h3 style={{ marginBottom: 16, fontFamily: 'var(--font-display)', color: 'var(--primary)' }}>
+            📈 {progress.childName}'s Progress — Class {progress.gradeNumber} ({progress.boardName})
           </h3>
 
           {progress.chapterProgress.length === 0 ? (
-            <div className="card" style={{ textAlign: 'center', padding: 40 }}>
-              <p style={{ color: 'var(--text-light)' }}>No practice sessions yet. Start practicing to see progress here!</p>
+            <div className="card" style={{ textAlign: 'center', padding: 48 }}>
+              <div style={{ fontSize: '3rem', marginBottom: 12 }}>📝</div>
+              <p style={{ color: 'var(--text-light)', fontWeight: 700 }}>
+                No practice sessions yet. Start practicing to see progress here!
+              </p>
             </div>
           ) : (
             <div className="card-grid">
-              {progress.chapterProgress.map(cp => (
-                <div key={cp.chapterId} className="card">
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    <div>
-                      <div style={{ fontWeight: 700 }}>{cp.chapterName}</div>
-                      <div style={{ fontSize: '0.85rem', color: 'var(--text-light)' }}>
-                        Class {cp.gradeNumber} – {cp.subjectName}
+              {progress.chapterProgress.map((cp, i) => {
+                const color = cp.accuracyPercent >= 80 ? 'var(--success)' :
+                              cp.accuracyPercent >= 50 ? 'var(--warning)' : 'var(--danger)';
+                return (
+                  <div key={cp.chapterId} className={`card anim-slide-up-${Math.min(i % 4 + 1, 4)}`}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <div>
+                        <div style={{ fontWeight: 800, fontFamily: 'var(--font-display)', fontSize: '0.95rem' }}>
+                          {cp.chapterName}
+                        </div>
+                        <div style={{ fontSize: '0.8rem', color: 'var(--text-light)', fontWeight: 600, marginTop: 2 }}>
+                          Class {cp.gradeNumber} · {cp.subjectName}
+                        </div>
+                      </div>
+                      <div className="stat-value" style={{ fontSize: '1.6rem', color }}>
+                        {cp.accuracyPercent}%
                       </div>
                     </div>
-                    <div className="stat-value" style={{ fontSize: '1.5rem' }}>{cp.accuracyPercent}%</div>
+                    <div className="progress-bar" style={{ marginTop: 12 }}>
+                      <div className="progress-bar-fill" style={{ width: `${cp.accuracyPercent}%` }} />
+                    </div>
+                    <div style={{ fontSize: '0.78rem', color: 'var(--text-light)', marginTop: 6, fontWeight: 700 }}>
+                      ✅ {cp.correctAnswers}/{cp.totalQuestions} correct
+                    </div>
                   </div>
-                  <div className="progress-bar" style={{ marginTop: 12 }}>
-                    <div className="progress-bar-fill" style={{ width: `${cp.accuracyPercent}%` }} />
-                  </div>
-                  <div style={{ fontSize: '0.8rem', color: 'var(--text-light)', marginTop: 6 }}>
-                    {cp.correctAnswers}/{cp.totalQuestions} correct
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           )}
         </div>

@@ -29,23 +29,24 @@ export default function LoginPage() {
   return (
     <div className="auth-page">
       <div className="card auth-card">
-        <h2>Login to Adhyayan</h2>
+        <div style={{ textAlign: 'center', fontSize: '3rem', marginBottom: 8 }}>👋</div>
+        <h2>Welcome Back!</h2>
         {error && <div className="error-msg">{error}</div>}
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label>Email</label>
+            <label>📧 Email</label>
             <input type="email" required value={email} onChange={e => setEmail(e.target.value)} placeholder="parent@example.com" />
           </div>
           <div className="form-group">
-            <label>Password</label>
+            <label>🔒 Password</label>
             <input type="password" required value={password} onChange={e => setPassword(e.target.value)} placeholder="Enter password" />
           </div>
-          <button type="submit" className="btn btn-primary" style={{ width: '100%' }} disabled={loading}>
-            {loading ? 'Logging in...' : 'Login'}
+          <button type="submit" className="btn btn-primary btn-lg" style={{ width: '100%' }} disabled={loading}>
+            {loading ? '⏳ Logging in...' : '🚀 Login'}
           </button>
         </form>
-        <p style={{ textAlign: 'center', marginTop: 16, color: 'var(--text-light)' }}>
-          Don't have an account? <Link to="/register">Sign up</Link>
+        <p style={{ textAlign: 'center', marginTop: 20, color: 'var(--text-light)', fontWeight: 600 }}>
+          Don't have an account? <Link to="/register" style={{ color: 'var(--primary)', fontWeight: 700 }}>Sign up ✨</Link>
         </p>
       </div>
     </div>
